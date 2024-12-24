@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body style 0085ff
+003465*/
+
+body{
+    
+    background: linear-gradient(90deg, #003465 0%, #0085ff 45%, #003465 100%);
+}
+#parent_div{
+    border-radius: 24px;
+    margin: 200px;
+    padding: 100px;
+    border: 2px solid #fff;
+}
+
+#nested_parent{
+opacity: 1;
+border-radius: 24px;
+padding: 40px 80px;
+box-shadow: 4px 4px 8px #0085ff;
+}
+.class_b, class_c{
+    padding: 10px 20px;
+
+}
+
+/* text style start*/
+
+.class_a{
+    text-align: center; 
+    
+}
+
+.main_text{
+    font-family: Gilroy-Bald;
+}
+input,
+.form_class button{
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+}
+label,
+.a_link{
+    display: block;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+.class_c p{
+text-align: center;
+margin: 20px 0px;
+}
+
+.class_c p a{
+    text-decoration: none;   
+}
+
+/*All texe color*/
+
+.text__color{
+    color: #fff;
+}
+
+.class_c_parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.class_c_parent button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.class_btn{
+    background-color: #0085ff;
+    font-size: 20px;
+}
+
+.fa-brands{
+    font-size: 20px;
+}
